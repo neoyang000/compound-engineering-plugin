@@ -142,6 +142,8 @@ Product-tier triggers additional Phase 1.2 questions and additional Product Cont
 
 **Visual probe tripwire.** If the feature is inherently visual or spatial — drawing/canvas tools, annotation behavior, visual editors, UI layout or navigation, interaction states, charts, diagrams, animation, maps, timelines, or spatial flows — read `references/visual-probes.md` now. Strong signals include freehand vs constrained drawing behavior, canvas annotation tools, layout comparisons, and state/flow placement. Loading the reference here is readiness only; it owns when the gate fires (state-based, at the first shape/behavior/state/layout/flow/diagram decision), the text-vs-visual offer, and helper invocation.
 
+**Infrastructure Portfolio Discovery tripwire.** If the feature description is a vague or partially scoped infrastructure portfolio request — datacenter, cloud network, virtualization, storage, backup/DR, HA, migration, upgrade, patching, infrastructure deployment, or products such as VMware, vSphere, ESXi, Hyper-V, Proxmox VE, Pure Storage, PowerStore, HPE, Dell, SAN, FC, iSCSI, AWS VPC, GCP VPC, Site-to-Site VPN, FortiGate, F5 BIG-IP, Exchange, Active Directory, SQL Always On, RHEL, Windows Server, Veeam, or NetBackup — read `references/demand-detective.md` now and use its scene back-tell, L1/L2/L3/L4 decision ordering, lifecycle scan, and decision-log output rules. This does not create a separate workflow; it sharpens this brainstorm so infrastructure requirements are decided before planning invents architecture.
+
 ### Phase 1: Understand the Idea
 
 #### 1.1 Existing Context Scan
@@ -184,6 +186,8 @@ If the scan and scout surface nothing relevant, say so and continue. Two rules g
 Before generating approaches, scan the user's opening for rigor gaps. This is agent-internal analysis, not a user-facing checklist: read the opening, note which gaps actually exist, and raise only those during Phase 1.3 — folded into the normal flow of dialogue, not fired as a pre-flight gauntlet. A fuzzy opening may earn three or four probes; a concrete, well-framed one may earn zero because no scope-appropriate gaps were found.
 
 Read `references/product-pressure-test.md` for the per-tier lens catalog (Lightweight / Standard / Deep / Deep-product) and the synthesis questions the agent weighs in its own reasoning. Match depth to the Phase 0.3 scope. Phase 1.3 owns how each found gap fires as a probe.
+
+If the Infrastructure Portfolio Discovery tripwire fired, apply the infrastructure-specific lenses in `references/product-pressure-test.md` alongside the normal tier lenses. Use `references/demand-detective.md` for the exact decision order and output expectations.
 
 #### 1.3 Collaborative Dialogue
 

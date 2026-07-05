@@ -6,6 +6,8 @@
 
 It runs equally well on software features, on entirely non-software topics (event planning, business decisions, personal-project framing, travel itineraries, naming briefs), and anywhere in between. The same one-question-at-a-time discipline applies everywhere. Software brainstorms write the requirements-only unified plan artifact; non-software brainstorms stay in facilitation mode and can hand their synthesis to `ce-plan` for a domain-appropriate plan.
 
+For infrastructure portfolio requests, it adds a demand-detective mode inside the same workflow: VMware/vSphere/ESXi, Hyper-V, Proxmox VE, storage, SAN/FC/iSCSI, AWS/GCP VPC, VPN, FortiGate, F5 BIG-IP, Active Directory, Exchange, SQL Always On, RHEL, Windows Server, Veeam, NetBackup, HA, Backup / DR, migration, upgrade, patching, and infrastructure deployment asks are clarified by scene back-tell, L1-L4 decision layers, lifecycle scanning, and a decision log before planning begins.
+
 This is the middle step in the compound-engineering ideation chain:
 
 ```text
@@ -50,6 +52,7 @@ A typical "let's brainstorm" with an AI also has shape problems: it asks five qu
 - **One question per turn**, even when sub-questions feel related
 - **Right-sized ceremony** — Lightweight / Standard / Deep / Deep-product tiers
 - **Named gap lenses** force rigor on premises before generating approaches
+- **Infrastructure portfolio discovery** clarifies on-prem, cloud, network, storage, Microsoft, Linux, backup, HA, migration, upgrade, patching, and deployment work with decision layers and operational acceptance evidence
 - **A background grounding scout** gathers verbatim repo evidence on a cheap model while you answer the opening questions
 - **2-3 concrete approaches** with tradeoffs, then a stated recommendation
 - **Opt-in visual probes** for decisions that are faster to judge as rough sketches than prose
@@ -78,6 +81,8 @@ Before generating approaches, the skill scans the user's opening for rigor gaps.
 - **Counterfactual** — no visibility into what users do today, or what changes if nothing ships
 - **Attachment** — a specific solution shape is being treated as the thing being built
 - **Durability** _(Deep-product only)_ — value rests on a current state of the world that may shift
+
+Infrastructure portfolio requests add boundary, lifecycle, operational ownership, and failure-path lenses so a vague "migration", "upgrade", "HA", "Backup / DR", or "deployment" request becomes explicit scope with rollback, evidence, ownership, and handoff expectations.
 
 These probes fire as **prose, not menus** — a 4-option menu signals which kinds of evidence count and lets the user pick rather than produce. Prose forces real observation.
 

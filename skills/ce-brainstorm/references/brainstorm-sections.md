@@ -235,6 +235,36 @@ worse than omitting it.
 - **Dependencies / Assumptions** — include when material upstream
   dependencies exist or when load-bearing assumptions need to be surfaced.
 
+- **Infrastructure Scope** — include when the brainstorm uses the
+  Infrastructure Portfolio Discovery path. State the in-scope sites,
+  environments, product families, lifecycle stage, phase-one boundary, and
+  explicit non-goals. This section prevents `ce-plan` from silently broadening
+  "migration", "upgrade", "HA", "Backup / DR", or "deployment" into a larger
+  portfolio program than the user approved.
+
+- **Decision Log** — include when the dialogue resolves infrastructure
+  boundary, lifecycle, operational, or reporting choices. Keep it compact:
+  date, L1/L2/L3/L4 layer, topic, decision, owner, and residual risk. It should
+  preserve why the chosen scope is safe enough to plan without restating the
+  whole conversation.
+
+- **Confirmed Requirements** — include for infrastructure outcomes that must be
+  implemented exactly: target service level, required migration behavior,
+  rollback boundary, HA/DR evidence, audit evidence, documentation, or handoff
+  obligations. Use normal R-IDs when downstream planning or testing will cite
+  them.
+
+- **Assumption-backed Requirements** — include for infrastructure requirements
+  that depend on unverified environment facts, stakeholder choices, vendor
+  constraints, maintenance windows, capacity, support status, or licensing. They
+  must be written so planning keeps them easy to change after validation.
+
+- **Operational Acceptance Criteria** — include when the result must be proven
+  operationally ready, not just built. Name evidence such as pre-checks,
+  post-checks, backup restore test, HA/failover test, RPO/RTO proof, monitoring
+  visibility, ticket/change record, audit trail, stakeholder sign-off, and
+  support handoff.
+
 - **Outstanding Questions** — include when there are unresolved items.
   Distinguish "Resolve Before Planning" (blocks planning) from "Deferred to
   Planning" (answered during planning or codebase exploration).

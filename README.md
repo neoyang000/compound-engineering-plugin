@@ -31,7 +31,7 @@ The core loop is six steps: **brainstorm** the requirements, **plan** the implem
 
 | Skill | Purpose |
 |-------|---------|
-| [`/ce-brainstorm`](docs/skills/ce-brainstorm.md) | Interactive Q&A to think through a feature or problem and write a requirements-only unified plan before planning |
+| [`/ce-brainstorm`](docs/skills/ce-brainstorm.md) | Interactive Q&A to think through a feature, problem, or infrastructure portfolio request and write a requirements-only unified plan before planning |
 | [`/ce-plan`](docs/skills/ce-plan.md) | Enrich feature ideas or requirements-only plans into implementation-ready plans |
 | [`/ce-work`](docs/skills/ce-work.md) | Execute implementation-ready plans with worktrees and task tracking |
 | [`/ce-simplify-code`](docs/skills/ce-simplify-code.md) | Refine the freshly written code for clarity and reuse before review |
@@ -118,7 +118,7 @@ The `compound-engineering` plugin currently ships 28 skills and 0 standalone age
 | [`/ce-ideate`](docs/skills/ce-ideate.md) | Generate and critically evaluate grounded ideas |
 | [`/ce-pov`](docs/skills/ce-pov.md) | Form a decisive, project-grounded verdict on an external input |
 | [`/ce-explain`](docs/skills/ce-explain.md) | Explain a concept, diff, idea, or window of your own work as a personal learning artifact |
-| [`/ce-brainstorm`](docs/skills/ce-brainstorm.md) | Explore requirements and write a right-sized requirements doc |
+| [`/ce-brainstorm`](docs/skills/ce-brainstorm.md) | Explore requirements, including infrastructure portfolio scope, and write a right-sized requirements doc |
 | [`/ce-plan`](docs/skills/ce-plan.md) | Create structured implementation plans |
 | [`/ce-work`](docs/skills/ce-work.md) | Execute implementation plans systematically |
 | [`/ce-code-review`](docs/skills/ce-code-review.md) | Review code with skill-local reviewer personas |
