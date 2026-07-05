@@ -26,6 +26,31 @@ Plus these synthesis questions — not gap lenses, product-judgment the agent we
 
 Favor moves that compound value, reduce future carrying cost, or make the product meaningfully more useful or compelling. Use the result to sharpen the conversation, not to bulldoze the user's intent.
 
+## Infrastructure / platform portfolio - add these lenses when the tripwire fires
+
+- **Boundary gap.** The opening names infrastructure products or work types but
+  does not say whether this is a single-product project, cross-domain
+  architecture, portfolio standard, migration wave, HA/DR program, or
+  operations handoff. When present, ask what estate and phase-one boundary the
+  project must cover.
+
+- **Lifecycle gap.** The opening asks for deployment, migration, upgrade,
+  patching, HA, Backup / DR, or infrastructure change without naming the
+  lifecycle path from pre-check through rollback, stabilization, documentation,
+  and handoff. When present, ask which lifecycle stage is the hardest or riskiest
+  part of this project.
+
+- **Operational ownership gap.** The opening does not identify who owns request,
+  approval, execution, validation, sign-off, and day-two operations across
+  platform, network, storage, security, database, messaging, backup,
+  application, service desk, or vendor teams. When present, ask who must approve
+  and who must operate the result after go-live.
+
+- **Failure-path gap.** The opening does not make downtime tolerance, rollback
+  boundary, data-loss tolerance, backup evidence, DR test, HA failover evidence,
+  or support escalation visible. When present, ask what failure mode would make
+  this project unacceptable even if the main deployment succeeds.
+
 ## Deep — Standard lenses and synthesis questions plus
 
 - Is this a local patch, or does it move the broader system toward where it wants to be?
